@@ -19,28 +19,18 @@ Python 3.9 or newer is recommended.
 
 No additional libraries are needed.
 
-You can check your Python version with:
-
-```bash
-python3 --version
-```
-
 ## Files
 
 ```text
-cammarasana_reproducibility.py
+main.py
     Python script for the computational verification.
-
-cammarasana_reproducibility_output.txt
-    Output of the default run.
-```
 
 ## Default verification
 
 Run the default verification with:
 
 ```bash
-python3 cammarasana_reproducibility.py
+python3 main.py
 ```
 
 The default range is:
@@ -83,7 +73,7 @@ A sample table is printed after the summary unless it is suppressed with `--no-t
 Display the available options with:
 
 ```bash
-python3 cammarasana_reproducibility.py --help
+python3 main.py --help
 ```
 
 Available options:
@@ -124,31 +114,31 @@ The parameter `--max-n` must not exceed `--max-k`.
 Run the default verification:
 
 ```bash
-python3 cammarasana_reproducibility.py
+python3 main.py
 ```
 
 Run the default verification without the sample table:
 
 ```bash
-python3 cammarasana_reproducibility.py --no-table
+python3 main.py --no-table
 ```
 
 Run a smaller test:
 
 ```bash
-python3 cammarasana_reproducibility.py --max-prime 1000 --max-k 5 --max-n 5
+python3 main.py --max-prime 1000 --max-k 5 --max-n 5
 ```
 
 Run the default range using four worker processes:
 
 ```bash
-python3 cammarasana_reproducibility.py --workers 4
+python3 main.py --workers 4
 ```
 
 Change the sample primes shown in the output table:
 
 ```bash
-python3 cammarasana_reproducibility.py --samples 7,11,13,37,41
+python3 main.py --samples 7,11,13,37,41
 ```
 
 ## Reproducibility statement
