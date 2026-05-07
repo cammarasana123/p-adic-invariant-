@@ -23,8 +23,9 @@ No additional libraries are needed.
 
 ```text
 main.py
-    Python script for the computational verification.
 ```
+Python script for the computational verification.
+
 
 ## Default verification
 
