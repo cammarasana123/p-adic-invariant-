@@ -140,9 +140,3 @@ Change the sample primes shown in the output table:
 ```bash
 python3 main.py --samples 7,11,13,37,41
 ```
-
-## Reproducibility statement
-
-The default run verifies the computational claims reported in the paper for all primes \(7 \le p \le 100000\), with \(1 \le n \le 7\) and \(1 \le k \le 7\).
-
-The reported default run gives zero mismatches in all tests.
