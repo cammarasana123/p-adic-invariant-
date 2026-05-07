@@ -43,8 +43,6 @@ The default range is:
 1 <= k <= 7
 ```
 
-The default run tests all primes \(p\) in the range \(7 \le p \le 100000\), excluding \(p=2,3,5\).
-
 The output begins with the following summary:
 
 ```text
