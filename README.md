@@ -1,6 +1,3 @@
-# A p-adic invariant of primes via the Möbius transform of the Lucas sequence**
-
-
 This repository contains the Python script used for the computational verification in the paper
 
 **A p-adic invariant of primes via the Möbius transform of the Lucas sequence**  
